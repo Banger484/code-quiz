@@ -1,0 +1,42 @@
+.body {
+    display: flex;
+}
+
+.answers {
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div {
+    width: 50%;
+    height: 30vh;
+    margin: 20vh auto 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+li {
+    border-radius: 25px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px auto;
+    padding-top: 5px;
+}
+li:hover {
+    background-color: palevioletred;
+    color: black;
+}
