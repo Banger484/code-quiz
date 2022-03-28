@@ -5,7 +5,7 @@
 .answers {
     background-color: black;
     height: 50px;
-    width: 300px;
+    width: 100%;
     color: white;
 }
 
@@ -30,11 +30,11 @@ h1 {
     margin-bottom: 20px;
 }
 li {
-    border-radius: 25px;
     font-size: 2rem;
     text-align: center;
-    margin: 5px auto;
+    margin: 1px auto;
     padding-top: 5px;
+    border: 2px solid grey
 }
 li:hover {
     background-color: palevioletred;
