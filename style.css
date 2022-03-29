@@ -1,42 +1,25 @@
-.body {
-    display: flex;
-}
-
-.answers {
-    background-color: black;
-    height: 50px;
-    width: 100%;
-    color: white;
-}
-
-ul {
+main {
+    width: 50%;
+    height: 50vh;
+    border: 1px solid black;
+    margin: 10vh auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 50%;
+    padding: 3%;
+}
+button {
+    height: 10vh;
     margin: 0 auto;
-    text-align: center;
 }
-
-div {
-    width: 50%;
-    height: 30vh;
-    margin: 20vh auto 0;
-}
-
 h1 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
+}
+ul {
+    text-decoration: none !important;
 }
 li {
-    font-size: 2rem;
-    text-align: center;
-    margin: 1px auto;
-    padding-top: 5px;
-    border: 2px solid grey
-}
-li:hover {
-    background-color: palevioletred;
-    color: black;
+    height: 6vh;
+    width: 40%;
+    background-color: red;
+    text-decoration: none !important;
 }
